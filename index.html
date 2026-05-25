@@ -1,67 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="https://i.postimg.cc/qvjz8QFW/Logo.png" />
-    <title>Thư 8/3 💌</title>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/qvjz8QFW/Logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <title>Cậu có thích tớ không ???</title>
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <div class="envlope-wrapper">
-        <div id="envelope" class="close">
-            <div class="wax-seal"></div>
-            <div class="front flap"></div>
-            <div class="front pocket"></div>
-            <div class="letter">
-                <div class="letter-corner corner-tl"></div>
-                <div class="letter-corner corner-br"></div>
-                <div class="message">
-                    <div class="lyrics">
-                        <div class="lyric-page active" id="page1"><p>Bao giờ cậu lên Hà Nội thì báo tớ nhé</p></div>
-                        <div class="lyric-page" id="page2"><p>Tớ muốn là người đầu tiên biết đó 😌</p></div>
-                        <div class="lyric-page" id="page3"><p>Nhỡ tớ xấu hơn trong ảnh thì sao?</p></div>
-                        <div class="lyric-page" id="page4"><p>Cậu có thất vọng không đấy 😭</p></div>
-                        <div class="lyric-page" id="page5"><p>Cậu thích đi ăn gì?</p></div>
-                        <div class="lyric-page" id="page6"><p>Thích trà sữa, cà phê hay đồ ngọt?</p></div>
-                        <div class="lyric-page" id="page7"><p>Cậu thích chỗ yên tĩnh hay chỗ đông vui?</p></div>
-                        <div class="lyric-page" id="page8"><p>Cậu thích được rủ đi chơi kiểu bất ngờ,</p></div>
-                        <div class="lyric-page" id="page9"><p>hay thích lên lịch trước cho chắc?</p></div>
-                        <div class="lyric-page" id="page10"><p>Cậu trả lời vào mess cho tớ nhé</p></div>
-                        <div class="lyric-page" id="page11"><p>Tớ chỉ chờ cậu lên thôi</p></div>
-                        <div class="lyric-page" id="page12"><p>Chứ Hà Nội thì lúc nào cũng ở đây rồi</p></div>
-                        <div class="lyric-page" id="page13"><p>Cậu lên thì ping tớ, tớ đón cậu đi chỗ này hay lắm ❤️</p></div>
-                        <div class="lyric-page" id="page14"><p>Ak đừng quên điền câu trả lời của cậu vào mess nhé 😉</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="hearts">
-                <div class="heart a1"></div>
-                <div class="heart a2"></div>
-                <div class="heart a3"></div>
-            </div>
-            <div class="sparkles">
-                <div class="sparkle s1"></div>
-                <div class="sparkle s2"></div>
-                <div class="sparkle s3"></div>
-            </div>
-        </div>
-    </div>
-    <div class="controls">
-        <button id="openBtn">Mở</button>
-        <button id="resetBtn" style="display: none;">Đóng</button>
-    </div>
-    <audio id="sound" loop>
-      <source src="./style/Nhac.mp3" type="audio/mpeg" />
-    </audio>
+  <img id="gif" src="https://i.pinimg.com/originals/01/df/7f/01df7f2337097617c8e34c15802b077f.gif" alt="Cute GIF"/>
+<h1 id="question">Đừng dỗi nha, sang tháng bạn lên Hà Nội to dẫn bạn đi chơi 🥺</h1>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./style/script.js"></script>
+  <div class="button-group">
+    <div class="container-yes">
+      <button id="yesBtn" class="btn btn-yes">Có</button>
+    </div>
+    <div class="container-no">
+      <button id="noBtn" class="btn btn-no">Không</button>
+    </div>
+  </div>
+
+  <audio id="bg-music1">
+    <source src="./style/sound/No01.mp3" type="audio/mpeg" />
+  </audio>
+  <audio id="bg-music2">
+    <source src="./style/sound/Huh02.mp3" type="audio/mpeg" />
+  </audio>
+  <audio id="bg-music3">
+    <source src="./style/sound/Quack03.mp3" type="audio/mpeg" />
+  </audio>
+  <audio id="bg-music4">
+    <source src="./style/sound/nhac.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="./style/script.js"></script>
 </body>
 </html>
-
-
-
-
-
